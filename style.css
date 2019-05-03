@@ -1,0 +1,110 @@
+
+ body{
+   background-image: url(assets/img/patternlight.png);
+/*background: rgb(255,205,207);
+background: linear-gradient(297deg, rgba(255,205,207,1) 15%, rgba(225,243,255,1) 82%);
+*/  background-repeat: repeat;
+  background-size: inherit;
+  font-family: 'quicksand', sans-serif;
+  font-size: .8em;
+ }
+
+header{
+  font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.company{
+  font-family: 'Lily Script One', cursive;
+  font-size: 1.7em!important;
+  color: #d12121;
+}
+
+.text-glow:hover {
+  text-shadow: #FC0 1px 0 10px;
+  font-size: 1.1em!important;
+}
+
+.about-text {
+  background-color: #ffe6bd8a;
+}
+
+.about i {
+  font-size: 2.3em;
+}
+.pizza {
+  margin-left: 6%;
+}
+
+.about img{
+  width: 144%;
+}
+
+.download{
+  background-color: #ff31312d;
+}
+
+.download:hover {
+-webkit-box-shadow: 0px 0px 18px 9px rgba(255, 236, 126, 0.788);
+-moz-box-shadow: 0px 0px 18px 9px rgba(255, 236, 126, 0.788);
+box-shadow: 0px 0px 12px -4px #ff696983;
+  
+}
+
+
+.features {
+  background: #ffc767;
+  border-top: 10px solid #d12121;
+  border-bottom: 10px solid #d12121;
+}
+
+.features img {
+width: 24%;
+}
+
+
+.hovereffect{
+  padding: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+}
+
+.hovereffect:hover{
+/*-webkit-box-shadow: 0px 0px 33px -6px rgba(255, 71, 71, 0.596);
+-moz-box-shadow: 0px 0px 33px -6px rgba(255, 71, 71, 0.596);
+box-shadow: 0px 0px 33px -6px rgba(255, 71, 71, 0.596);*/
+background: rgb(254,255,225);
+background: radial-gradient(circle, #ffb534 -5%, #ffc767 48%);
+}
+
+.blend{
+height: 500px;
+box-shadow: inset -246px -8px 108px -74px rgba(255,252,240,1);
+background-image: url(assets/img/angelpizza.png);
+background-size: 91%; /*cover maybe*/
+background-position-y:53%;
+background-position-x: center;
+background-repeat: no-repeat;
+
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+footer{
+  background-color: #383838;
+}
+
+footer i{
+  font-size: 25px;
+}
+
+footer img{
+  width: 70%;
+}
+
+.address {
+  font-size: .6em;
+}
